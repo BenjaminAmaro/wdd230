@@ -37,7 +37,7 @@ nav a {
     padding: 20px;
     font-family: 'Source Code Pro', monospace;
     text-decoration: none;
-    color: aliceblue;
+    color: black;
 }
 
 /* Main  */
@@ -70,7 +70,7 @@ h3 {
     border-radius: 2%;
     overflow: hidden;
 }
-h5 {
+h4 {
     text-align: center;
 }
 ul {
@@ -89,6 +89,7 @@ footer {
     flex-direction: column;
 }
 p {
+    color: aliceblue;
     width: 300px;
     text-align: center;
 }
