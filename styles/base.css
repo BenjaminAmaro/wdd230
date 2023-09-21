@@ -45,9 +45,9 @@ main {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     display: flex;
-    flex-direction: column; /* Stack child elements vertically */
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
     gap: 20px;
     margin: 0 auto;
     
