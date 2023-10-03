@@ -67,6 +67,14 @@ h3 {
     margin: 0;
     height: 50px;
 }
+.card a:active ,
+.card a:link ,
+.card a:visited { 
+	color: navy;
+}
+.card a:hover {
+    color: purple;
+}
 .card   {
     width: 80%;
     border: 2px solid lightgray;;
