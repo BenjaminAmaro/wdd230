@@ -10,9 +10,11 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
-
+}
+#menu {
+    display: none;
 }
 nav {
     display: flex;
@@ -59,7 +61,7 @@ ul {
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    margin: 100px;
+    margin: 30px;
     height: 700px;
     font-size: 30px;
     font-weight: 700;
@@ -80,12 +82,28 @@ ul {
     padding: 10px 30px;
     border: none;
     border-radius: 25px;
+    margin: 20px;
 }
 section {
     height: 300px;
     width: 100%;
     background-color: #F4A261;
     padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section a {
+    color: #081349;
+}
+.event {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+section h1 {
+    width: 100%;
+    border-bottom: 1px solid #213b44;
 }
 .container {
     display: grid;
@@ -115,10 +133,7 @@ section {
     grid-column: 3/4;
     grid-row: 2/3;
 }
-.event {
-    grid-column: 1/3;
-    grid-row: 1/2;
-}
+
 
 footer {
     display: grid;
@@ -162,3 +177,4 @@ button,.button-footer {
     justify-content: space-around;
     align-items: center;
 }
+
