@@ -1,12 +1,14 @@
 const input = document.querySelector("input");
+input.focus();
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
+
 button.addEventListener('click',()=> {
     if (input.value !== "") {
-            input.focus
+            input.focus();
     } else {
-        input.focus
+        input.focus();
     }
     const li = document.createElement("li");
     const deleteButtom =document.createElement("button");
