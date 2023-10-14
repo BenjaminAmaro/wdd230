@@ -25,12 +25,13 @@ nav {
 li a:active ,
 li a:link ,
 li a:visited { 
-	color: #213b44;
+    color: white;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; /* Create a black border using text-shadow */
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
 }
 li a:hover {
-    color: purple;
+font-size: 1.4rem;
 }
 header {
     margin-left: 100px;
@@ -178,3 +179,13 @@ button,.button-footer {
     align-items: center;
 }
 
+/* darkmode toggle */
+#mode {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+/* blackbackgrounf */
