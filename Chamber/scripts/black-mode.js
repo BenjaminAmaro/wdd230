@@ -36,7 +36,7 @@ modeButton.addEventListener("click", () => {
 			})
 		
 		links.forEach(link => {
-			link.style.color = "#213b44";
+			link.style.color = "black";
 		});
 		sectLink.forEach(section => {
 			section.style.color = "#081349"; 
