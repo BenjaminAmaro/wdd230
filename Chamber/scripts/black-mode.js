@@ -7,7 +7,8 @@ const section = document.querySelectorAll("section");
 // const pubOne = document.querySelector(".publicity-1"); 
 // const pubTwo = document.querySelector(".publicity-2"); 
 // const PubThree = document.querySelector(".publicity-3"); 
-const links = document.querySelectorAll("a"); 
+const links = document.querySelectorAll("li a"); 
+const sectLink = document.querySelectorAll("section a"); 
 
 
 modeButton.addEventListener("click", () => {
@@ -15,10 +16,15 @@ modeButton.addEventListener("click", () => {
 		body.style.backgroundColor = "#000"; 
 
 		header.style.color = "#fff"; 
+
 		section.forEach(section => {
 		section.style.backgroundColor = "#213b44"; 
 		section.style.color = "#fff"; 
 		})
+
+		sectLink.forEach(section => {
+			section.style.color = "#fff"; 
+			})
 
 		// // event
 		// events.style.backgroundColor = "#213b44"; 
@@ -67,6 +73,9 @@ modeButton.addEventListener("click", () => {
 		links.forEach(link => {
 			link.style.color = "black";
 		});
+		sectLink.forEach(section => {
+			section.style.color = "#081349"; 
+			})
 
 		modeButton.textContent = "Dark Mode";
 	}
