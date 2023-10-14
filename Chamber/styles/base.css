@@ -25,13 +25,20 @@ nav {
 li a:active ,
 li a:link ,
 li a:visited { 
-    color: white;
-    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; /* Create a black border using text-shadow */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* You can adjust font-weight for a bolder effect */
+    color: white; /* Set the text color to white */
+    text-shadow: 
+    -1px -1px 2px black, 
+    1px -1px 2px black, 
+    -1px 1px 2px black, 
+      1px 1px 2px black; /* Create a black border with a blur effect for better contrast */
+    /* Adjust the shadow offsets and spread to control the border size and placement */
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
 }
 li a:hover {
-font-size: 1.4rem;
+font-size: 2rem;
 }
 header {
     margin-left: 100px;
