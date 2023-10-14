@@ -27,12 +27,12 @@ li a:link ,
 li a:visited {
     font-size: 24px; 
     font-weight: bold; 
-    color: white; 
+    color: #213b44; 
     text-shadow:
-    -1px -1px 2px black,
-    1px -1px 2px black,
-    -1px 1px 2px black,
-    1px 1px 2px black;
+    -1px -1px 2px white,
+    1px -1px 2px white,
+    -1px 1px 2px white,
+    1px 1px 2px white;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
 }
