@@ -24,16 +24,15 @@ nav {
 }
 li a:active ,
 li a:link ,
-li a:visited { 
-    font-size: 24px; /* Adjust the font size as needed */
-    font-weight: bold; /* You can adjust font-weight for a bolder effect */
-    color: white; /* Set the text color to white */
-    text-shadow: 
-    -1px -1px 2px black, 
-    1px -1px 2px black, 
-    -1px 1px 2px black, 
-      1px 1px 2px black; /* Create a black border with a blur effect for better contrast */
-    /* Adjust the shadow offsets and spread to control the border size and placement */
+li a:visited {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: white; 
+    text-shadow:
+    -1px -1px 2px black,
+    1px -1px 2px black,
+    -1px 1px 2px black,
+    1px 1px 2px black;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
 }
