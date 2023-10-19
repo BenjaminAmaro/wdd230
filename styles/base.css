@@ -46,7 +46,7 @@ nav a {
 }
 .herolabel {
 	position: absolute;
-	top: 250px;
+	top: 180px;
 	left: 30px;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
