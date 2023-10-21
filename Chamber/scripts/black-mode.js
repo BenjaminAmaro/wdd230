@@ -8,7 +8,7 @@ const sectLink = document.querySelectorAll("section a");
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("Dark Mode")) {
-		body.style.backgroundColor = "#000"; 
+		body.style.backgroundColor = "#202124"; 
 
 		header.style.color = "#fff"; 
 
