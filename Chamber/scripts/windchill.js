@@ -1,10 +1,10 @@
-const temperatureElement = document.getElementById("temperature");
-const windspeedElement = document.getElementById("windspeed");
-const windchillElement = document.getElementById("windchill");
-const temperature = parseFloat(temperatureElement.textContent);
-const windspeed = parseFloat(windspeedElement.textContent);
-const windChillValue = calculateWindChill(temperature, windspeed);
-windchillElement.textContent = windChillValue;
+const tempElement = document.getElementById("temperature");
+const wsElement = document.getElementById("windspeed");
+const wdcElement = document.getElementById("windchill");
+const temperature = parseFloat(tempElement.textContent);
+const windspeed = parseFloat(wsElement.textContent);
+const wcValue = calculateWindChill(temperature, windspeed);
+wdcElement.textContent = wcValue;
 
 function calculateWindChill(temperature, windspeed) {
     if (temperature <= 50 && windspeed > 3.0) {
