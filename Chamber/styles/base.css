@@ -165,6 +165,7 @@ section h1 {
 
 
 footer {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 30px;
@@ -215,4 +216,55 @@ button,.button-footer {
 	font-size: 1.5rem;
 	cursor: pointer;
     font-family: 'Oswald', sans-serif;
+}
+/* Discover main css */
+
+.container-discover {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: repeat(1, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+    
+.div1 { 
+    grid-area: 1 / 1 / 6 / 2; 
+    width: 100%;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 6 / 3; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+picture {
+    margin: 0 auto;
+}
+.articles-discover {
+    color: white;
+    background-color: #213b44;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.information-discover {
+    margin: 20px;
+    font-size: 2rem;
+}
+picture:hover {
+    border-radius: 50px;
+    background: #213b44;
+    box-shadow:  20px 20px 60px #1c323a,
+        -20px -20px 60px #26444e;
 }

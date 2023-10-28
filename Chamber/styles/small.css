@@ -175,4 +175,22 @@
         grid-row: 3/4;
         grid-column: 1/2;
     }
+
+    /* Discover */
+    picture:hover {
+        background: none;
+        box-shadow:  none;
+    }
+    .container-discover {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-right: 100px;
+        }
+    picture img {
+        margin: 0 auto;
+        width: 250px;
+    }
 }
+
+
