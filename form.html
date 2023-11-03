@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/larger.css">
-    <meta name="description" content="This is the course assignment portal WDD 230 - Web Frontend Development home page, with all of the links to the excersises for all 14 weeks made by Sergio Benjamin Amaro Morales" />
+    <meta name="description" content="This is the course assignment portal WDD 230 - Web Frontend Development home page, with all of the links to the execersises for all 14 weeks made by Sergio Benjamin Amaro Morales" />
     <meta name="author" content="Benjamin Amaro" />
 
 </head>
@@ -34,52 +34,32 @@
         <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng" target=”_blank”>Scripture</a>
     </nav>
 
-    <h1>Course Proposal Application</h1>
     <form method="get" action="thanks.html">
         <fieldset>
             <legend>Student Form</legend>
-            <label >Username* <input type="text" name="username" required></label>
-            <label >Password* <input type="password" name="password" required></label>
-            <label >Re-enter Your Password* <input type="password" name="re-enter-password" required></label>
-            <label >Email* <input type="email" name="email" required></label>
+            <label class="form">Username* <input type="text" name="username" id="username" required></label>
+            <label class="form">Password* <input type="password" name="password" pattern="[A-Za-z]{8}" id="password1" required></label>
+            <label class="form">Re-enter Your Password* <input type="password" name="re-enter-password" id="password2" required></label>
+            <label class="form">Please enter a valid email address* <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+            <label for="r">Page Rating</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
 
-            <!-- <label class="top">Phone <input type="tell" name="Phone" placeholder="((815)-151-8899)"></label>
-            <label class="top">Email <input type="email" name="email" placeholder="(Email)"></label>
-            <label class="top">website <input type="url" name="url" placeholder="(http://)"></label>
         </fieldset>
-
-        <fieldset>
-            <legend>applicant Information</legend>
-            <div>Audience</div>
-            <label class="sbs"><input type="radio" name="Audience" value="Beginner"">Beginner</label>
-            <label class="sbs"><input type="radio" name="Audience" value="Intermediate"">Intermediate</label>
-            <label class="sbs"><input type="radio" name="Advance" value="Advance"">Advance</label>
-
-            <div>Software Needed</div>
-            <label class="sbs"><input type="checkbox" name=editing" value="yes"">Photo Editing</label>
-            <label class="sbs"><input type="checkbox" name=coding" value="yes"">Coding</label>
-            <label class="sbs"><input type="checkbox" name=preporcessor" value="yes"">Preporcessor</label>
-            <label class="sbs"><input type="checkbox" name=client" value="yes"">FTP Client </label>
-        </fieldset>
-
-        <fieldset>
-            <legend>Funding</legend>
-            <label class="top">Anticipated Completition Date <input type="date" name="complete date"></label>
-            <label class="top">Course Subject
-                <select name="Subject">
-                    <option value="">Please Select &#9662;</option>
-                    <option value="Software">Software Development</option>
-                    <option value="Software">Software Development</option>
-                    <option value="Software">Software Development</option>
-                    <option value="Software">Software Development</option>
-                    <option value="Software">Software Development</option>
-                    <option value="Software">Software Development</option>
-                    <option value="Software">Software Development</option>
-                </select>
-            </label>
-            <label class="top">How many Authors <input type="number" name="authors"></label>
-        </fieldset> -->
-        <input type="submit" value="Propose My Course" class="submitBtn">
+        <input type="submit" value="Sing Up" class="submitBtn">
     </form>
 
     <footer>
@@ -90,6 +70,7 @@
     <script src="./scripts/getdates.js"></script>
     <script src="./scripts/responsive-menu.js"></script>
     <script src="./scripts/visits.js"></script>
+    <script src="./scripts/forms.js"></script>
 
 </body>
 </html>
