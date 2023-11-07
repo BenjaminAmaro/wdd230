@@ -12,3 +12,22 @@
     },
     "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
 }
+
+
+// old
+
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.linkedEditing": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveServer.settings.donotShowInfoMsg": true,
+"liveServer.settings.useLocalIp": true,
+"liveServer.settings.AdvanceCustomBrowserCmdLine": "/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+"editor.minimap.enabled": false,
+"liveServer.settings.donotVerifyTags": true,
+"explorer.confirmDragAndDrop": false,
+"glassit.alpha": 255,
+"workbench.colorTheme": "Bearded Theme Solarized",
+"liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+"boot-java.rewrite.reconcile": true
+}
