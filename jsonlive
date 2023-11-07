@@ -1,0 +1,14 @@
+{
+    "redhat.telemetry.enabled": true,
+    "glassit.alpha": 250,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.minimap.enabled": false,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "Bearded Theme Stained Purple",
+    "liveServer.settings.donotVerifyTags": true,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+}
