@@ -1,0 +1,23 @@
+{
+    "familyName" : "Amaro",
+    "arrivalWard" : "1-01-2023",
+    "numberOfFamily" : "3",
+    "visited" : "true",
+    "familyMembers" : [
+        {
+            "name" : "ben", 
+            "gender" : "male", 
+            "birthday" : "30-03-1990"
+        },
+        {
+            "name" : "rox", 
+            "gender" : "female", 
+            "birthday" : "1-04-1991"
+        },
+        {
+            "name" : "ann", 
+            "gender" : "female", 
+            "birthday" : "30-05-2015"
+        }
+    ]
+}
