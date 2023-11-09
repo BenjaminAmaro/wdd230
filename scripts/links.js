@@ -1,0 +1,1 @@
+const baseURL = "https://benjaminamaro.github.io/wdd230/";
