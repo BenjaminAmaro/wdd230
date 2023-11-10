@@ -1,0 +1,67 @@
+{
+    "companies": [
+    {
+        "name": "Company A",
+        "address": "123 Main Street, City A, Country A",
+        "phone": "123-456-7890",
+        "website": "http://www.companyA.com",
+        "image": "companyA_icon.png",
+        "membership_level": "Gold",
+        "other_information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Company B",
+        "address": "456 Oak Street, City B, Country B",
+        "phone": "987-654-3210",
+        "website": "http://www.companyB.com",
+        "image": "companyB_icon.png",
+        "membership_level": "Silver",
+        "other_information": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "name": "Company C",
+        "address": "789 Pine Street, City C, Country C",
+        "phone": "555-123-4567",
+        "website": "http://www.companyC.com",
+        "image": "companyC_icon.png",
+        "membership_level": "Bronze",
+        "other_information": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+    {
+        "name": "Company D",
+        "address": "101 Elm Street, City D, Country D",
+        "phone": "111-222-3333",
+        "website": "http://www.companyD.com",
+        "image": "companyD_icon.png",
+        "membership_level": "Gold",
+        "other_information": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+        "name": "Company E",
+        "address": "202 Cedar Street, City E, Country E",
+        "phone": "444-555-6666",
+        "website": "http://www.companyE.com",
+        "image": "companyE_icon.png",
+        "membership_level": "Silver",
+        "other_information": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "name": "Company F",
+        "address": "303 Birch Street, City F, Country F",
+        "phone": "777-888-9999",
+        "website": "http://www.companyF.com",
+        "image": "companyF_icon.png",
+        "membership_level": "Gold",
+        "other_information": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+    },
+    {
+        "name": "Company G",
+        "address": "404 Maple Street, City G, Country G",
+        "phone": "999-000-1111",
+        "website": "http://www.companyG.com",
+        "image": "companyG_icon.png",
+        "membership_level": "Bronze",
+        "other_information": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur."
+    }
+    ]
+}
