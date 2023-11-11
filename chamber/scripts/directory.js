@@ -10,7 +10,7 @@ async function getCompanyData() {
 const displayCompanies = (companies) => {
     companies.forEach((company) => {
         // Create elements to add to the div.cards element
-        let card = document.createElement('section');
+        let card = document.createElement('span');
         let name = document.createElement('h2');
         let address = document.createElement('p');
         let phone = document.createElement('p');
@@ -36,10 +36,10 @@ const displayCompanies = (companies) => {
 
         // Append the section(card) with the created elements
         card.appendChild(name);
+        card.appendChild(image);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(website);
-        card.appendChild(image);
         card.appendChild(membershipLevel);
         card.appendChild(otherInformation);
 
