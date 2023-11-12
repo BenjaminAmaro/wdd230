@@ -380,7 +380,7 @@ form input.submitBtn {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: #213b44;
 	text-align: center;
 }
 
@@ -403,18 +403,35 @@ form input.submitBtn {
 	grid-gap: 10px;
 	align-items: center;
 }
+#grid {
+    font-size: 2.0rem;
+    height: 100px;
+    width: 300px;
+}
+#list {
+    font-size: 2.0rem;
+    height: 100px;
+    width: 300px;
+}
+article .toggle {
+    justify-content: center;
+    align-items: center;
 
+}
 .grid .toggle {
 	text-align: center;
 }
-
+h2 {
+    margin: 20px;
+    color: #FDDDE6;
+}
 .grid img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
 }
 
 .grid .toggle > * {
-	margin: 0.1rem;
+	margin: 0.5rem;
 }
 
 
@@ -428,7 +445,7 @@ form input.submitBtn {
 	grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
-    width: 1500px;
+    width: 100%;
 }
 /* 
 .list .toggle > * {
@@ -441,7 +458,7 @@ form input.submitBtn {
 
 
 .list .toggle:nth-child(even) {
-	background-color: #213b44;
+	background-color: white;
 }
 
 

@@ -1,4 +1,5 @@
-const url = 'https://benjaminamaro.github.io/wdd230/chamber/data/directory.json';
+// const url = 'https://benjaminamaro.github.io/wdd230/chamber/data/directory.json';
+const url = '/chamber/data/directory.json';
 const cards = document.querySelector('#cards');
 
 async function getCompanyData() {
@@ -9,7 +10,6 @@ async function getCompanyData() {
 
 const displayCompanies = (companies) => {
     companies.forEach((company) => {
-        // Create elements to add to the div.cards element
         let card = document.createElement('span');
         let name = document.createElement('h2');
         let address = document.createElement('p');
@@ -17,9 +17,8 @@ const displayCompanies = (companies) => {
         let website = document.createElement('a');
         let image = document.createElement('img');
         let membershipLevel = document.createElement('p');
-        let otherInformation = document.createElement('p');
+        let mission = document.createElement('p');
 
-        // Build the h2 content to show the company's name
         card.setAttribute('class', 'toggle')
         name.textContent = company.name;
         address.textContent = `Address: ${company.address}`;
@@ -31,17 +30,16 @@ const displayCompanies = (companies) => {
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '100');
         image.setAttribute('height', '100');
-        membershipLevel.textContent = `Membership Level: ${company.membership_level}`;
-        otherInformation.textContent = `Other Information: ${company.other_information}`;
+        membershipLevel.textContent = `Membership: ${company.membership_level}`;
+        mission.textContent = `Mission: ${company.other_information}`;
 
-        // Append the section(card) with the created elements
         card.appendChild(name);
         card.appendChild(image);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(website);
         card.appendChild(membershipLevel);
-        card.appendChild(otherInformation);
+        card.appendChild(mission);
 
         cards.appendChild(card);
     });
