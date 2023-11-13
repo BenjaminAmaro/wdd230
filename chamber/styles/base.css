@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0 ;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 .logo {
     width: 200px;
@@ -78,7 +79,7 @@ h1 {
 }
 .hero { 
     width: 100%;
-    background-image: url(../images/hands.jpg);
+    /* background-image: url(../images/hands.jpg); */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -288,7 +289,7 @@ h1.h1form {
     grid-column: 2/3;
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items:start;
     flex-direction: column;
     padding: 30px;
     width: 90%;
@@ -305,7 +306,7 @@ main form {
 form {
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: start;
     flex-direction: column;
     padding: 30px;
     width: 325px;
@@ -394,44 +395,58 @@ form input.submitBtn {
 	padding: 0.5rem;
 	background-color: #eee;
     width: 400px;
-
 }
 
 .grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	grid-gap: 10px;
-	align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 10px;
+    align-items: stretch; /* Ensure all cards have the same height */
+    justify-content: center;
+}
+
+.grid {
+    margin: 20px;
 }
 #grid {
     font-size: 2.0rem;
     height: 100px;
     width: 300px;
+    
 }
 #list {
     font-size: 2.0rem;
     height: 100px;
     width: 300px;
 }
-article .toggle {
-    justify-content: center;
-    align-items: center;
-
-}
 .grid .toggle {
 	text-align: center;
 }
 h2 {
     margin: 20px;
-    color: #FDDDE6;
+}
+span .toggle {
+    height: 800px;
 }
 .grid img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
+    height: 100px;
+    width: 100px;
 }
 
-.grid .toggle > * {
-	margin: 0.5rem;
+.grid .toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #eee;
+    width: 400px;
+    margin: auto; /* Center the card itself in the grid */
+    height: 100%; /* Ensure the card takes the full height of the grid */
 }
 
 
