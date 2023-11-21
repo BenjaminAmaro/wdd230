@@ -111,6 +111,9 @@ h4 {
     text-align: center;
     color: black;
 }
+figure {
+    text-align: center;
+}
 ul {
     list-style: none;
     margin-left: -20px;
@@ -176,4 +179,3 @@ nav a:hover {
     align-items: center;
     width: 100%;
 }
-

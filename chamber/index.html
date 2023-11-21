@@ -20,6 +20,10 @@
     <meta name="author" content="Benjamin Amaro" />
 </head>
 <body>
+    <div id="banner">
+        <p>Join us for the Chamber of Commerce website meet and greet on Wednesday at 7:00 p.m.</p>
+        <span id="closeButton" onclick="closeBanner()">❌</span>
+    </div>
     <header>
         <div id="mode">
             Dark Mode
@@ -29,13 +33,16 @@
             <button id="menu"></button>
             <ul class="navigation">
                 <li>
+                    <a href="./index.html" target=”_blank”>Home</a>
+                </li>
+                <li>
                     <a href="./discover.html" target=”_blank”>Discover</a>
                 </li>
                 <li>
                     <a href="./directory.html" target=”_blank”>Directory</a>
                 </li>
                 <li>
-                    <a href="" target=”_blank”>projects</a>
+                    <a href="./join.html" target=”_blank”>Join</a>
                 </li>
             </ul>
         </nav>
@@ -71,6 +78,11 @@
             <p>Current Temperature: <span id="temperature">50</span> °F</p>
             <p>Wind Speed: <span id="windspeed">3.5</span> mph</p>
             <p>Wind Chill: <span id="windchill">N/A</span></p>
+            <h4>|<span id="current-temp"></span>|</h4>
+            <figure>
+            <img id="weather-icon" src="..." alt="...">
+            <figcaption></figcaption>
+            </figure>
 
         </section>
 
@@ -96,7 +108,10 @@
             <a href="">+888-888-8888</a>
         </section>
     </main>
-
+    <h2>The Next 3 Days Forecast</h2>
+    <div class="dayly-forecast">
+        <span id="forecast-container"></span>
+        </div>
     <footer>
 
         <div class="upper-section-left">
@@ -122,5 +137,7 @@
     <script src="./scripts/ham-menu.js"></script>
     <script src="./scripts/black-mode.js"></script>
     <script src="./scripts/windchill.js"></script>
+    <script src="./scripts/weather.js"></script>
+    <script src="./scripts/banner.js"></script>
 </body>
 </html>

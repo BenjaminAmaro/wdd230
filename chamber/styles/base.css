@@ -212,7 +212,7 @@ button,.button-footer {
 /* darkmode toggle */
 #mode {
 	position: absolute;
-	top: 1rem;
+	/* top: 1rem; */
 	left: 1rem;
 	font-size: 1.5rem;
 	cursor: pointer;
@@ -493,4 +493,56 @@ span .toggle {
 img {
 	height: 100%;
 	max-width: 100%; 
+}
+
+
+/* banner */
+
+#banner {
+    display: none;
+    padding: 50px;
+    align-content: center;
+    justify-content: center;
+    background-color: #213b44;
+    color: #fff;
+    text-align: center;
+}
+
+#closeButton {
+    cursor: pointer;
+    float: inherit;
+    font-weight: bold;
+}
+#banner p {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* daily forecast */
+figure {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    border-bottom: 2px solid lightgray;;
+    width: 100%;
+    padding: 20px;
+}
+#forecast-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
+}
+.forecast-day {
+
+    margin: 0 auto;
+    padding: 0.35rem;
+    background-color: #F4A261;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    align-items: center;
 }
