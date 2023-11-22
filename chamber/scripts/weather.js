@@ -25,6 +25,8 @@ function displayResults(data) {
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
+    weatherIcon.setAttribute('width', '30px');
+    weatherIcon.setAttribute('height', '30px');
     captionDesc.textContent = `${desc}`;
 }
 
@@ -37,7 +39,7 @@ async function apiFetch2() {
         const response = await fetch(url2);
         if (response.ok) {
         const data2 = await response.json();
-        console.log (data2);
+        // console.log (data2);
         showWeather(data2);
         } else {
             throw Error(await response.text());
@@ -87,6 +89,8 @@ function showWeather(data) {
         const iconDesc = day.weather[0].description;
         dayIcon.setAttribute('src', iconSrc);
         dayIcon.setAttribute('alt', iconDesc);
+        dayIcon.setAttribute('width', '50px');
+        dayIcon.setAttribute('height', '50px');
 
         const description = document.createElement('h4');
         description.textContent = `${iconDesc}`;
