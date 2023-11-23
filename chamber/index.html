@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Levis Chamber of Commerce</title>
-    <meta property="og:url"                content="https://benjaminamaro.github.io/wdd230/Chamber/" /> 
+    <meta property="og:url"                content="https://benjaminamaro.github.io/wdd230/chamber/" /> 
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="Levis Chamber of Commerce." />
     <meta property="og:image"              content="https://unsplash.com/es/fotos/r2ZaLVbFh8U" />
@@ -16,13 +16,13 @@
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/small.css">
-    <meta name="description" content="empower, support and represent our business community in its development." />
-    <meta name="author" content="Benjamin Amaro" />
+    <meta name="description" content="Empower, support and represent our business community in its development with the services of the Levis Chamber of Commerce." />
+    <meta name="author" content="Sergio Benjamin Amaro Morales" />
 </head>
 <body>
     <div id="banner">
         <p>Join us for the Chamber of Commerce website meet and greet on Wednesday at 7:00 p.m.</p>
-        <span id="closeButton" onclick="closeBanner()">❌</span>
+        <span id="closeButton" onclick="closedBanner()">❌</span>
     </div>
     <header>
         <div id="mode">
@@ -68,26 +68,26 @@
     </div> -->
     <main class="container">
         <section class="event">
-            <h1>Events</h1>
+            <h2>Events</h2>
             <h3>Ribbon cutting - The Diamond Shack </h3>
             <p>join Us for the grand opening of the Diamond Shack Thursday at 1:00pm</p>
         </section>
         <section class="weather">
-            <h1>Weather</h1>
+            <h2>Weather</h2>
 
-            <p>Current Temperature: <span id="temperature">50</span> °F</p>
+            <!-- <p>Current Temperature: <span id="temperature">50</span> °F</p>
             <p>Wind Speed: <span id="windspeed">3.5</span> mph</p>
-            <p>Wind Chill: <span id="windchill">N/A</span></p>
-            <h4>|<span id="current-temp"></span>|</h4>
+            <p>Wind Chill: <span id="windchill">N/A</span></p> -->
+            <h3>Temperature: <span id="current-temp"></span></h3>
             <figure>
-            <img id="weather-icon">
+                <div id="weather-container"></div>
             <figcaption></figcaption>
             </figure>
 
         </section>
 
         <section class="publicity-1">
-            <h1>🚛Thankful transport</h1>
+            <h2>🚛Thankful transport</h2>
             <p>"We get it there for you"</p>
             <a href="">Hello@thankfultransport.com</a>
             <a href="">+999-999-9999</a>
@@ -95,20 +95,20 @@
         </section>
 
         <section class="publicity-2">
-            <h1>🧑🏽‍💻code primera</h1>
+            <h2>🧑🏽‍💻code primera</h2>
             <p>"after school coding!"</p>
             <a href="">Contact@codeprimera.com</a>
             <a href="">+999-999-9999</a>
             <a href="">Website</a>
         </section>
         <section class="publicity-3">
-            <h1>🌳Build a Treefort</h1>
+            <h2>🌳Build a Treefort</h2>
             <p>over 1000 plans</p>
             <a href="">builda@treefort.com</a>
             <a href="">+888-888-8888</a>
         </section>
     </main>
-    <h2>The Next 3 Days Forecast</h2>
+    <h2>Next 3 Days Forecast</h2>
     <div class="dayly-forecast">
         <span id="forecast-container"></span>
         </div>
