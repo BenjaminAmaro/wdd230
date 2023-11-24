@@ -366,9 +366,9 @@ form input.submitBtn {
 }
 
 .thanksh1 {
-    text-align: center; /* Center the text horizontally */
-    margin: 0 auto; /* Center the element within its container */
-    max-width: 600px; /* Adjust the width as needed */
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 600px; 
 }
 
 /* drectory.html  css cards and list toggle */
@@ -405,7 +405,7 @@ form input.submitBtn {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 10px;
-    align-items: stretch; /* Ensure all cards have the same height */
+    align-items: stretch; 
     justify-content: center;
 }
 
@@ -442,15 +442,15 @@ span .toggle {
 .grid .toggle {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Adjust as needed */
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
     background-color: #eee;
     width: 400px;
-    margin: auto; /* Center the card itself in the grid */
-    height: 100%; /* Ensure the card takes the full height of the grid */
+    margin: auto;
+    height: 100%;
 }
 
 
@@ -472,7 +472,7 @@ span .toggle {
 } */
 
 .list .toggle img {
-	display: none; /* smaller viewports only */
+	display: none
 }
 
 
@@ -548,4 +548,9 @@ h2 {
     align-items: center;
     width: 400px;
     align-items: center;
+}
+.spot {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
 }

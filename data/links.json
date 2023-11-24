@@ -112,7 +112,7 @@
             "title":"Prophets Api"
         },
         {
-            "url":"/data/links.json",
+            "url":"./data/links.json",
             "title":"json Links"
         }
         ]
