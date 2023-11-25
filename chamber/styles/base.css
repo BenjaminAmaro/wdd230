@@ -493,10 +493,10 @@ span .toggle {
     padding: 20px;
 }
 
-img {
+/* img {
 	height: 100%;
 	max-width: 100%; 
-}
+} */
 
 
 /* banner */
@@ -549,8 +549,15 @@ h2 {
     width: 400px;
     align-items: center;
 }
+
 .spot {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 20px;
+    padding: 30px;
+}
+.spotlightcards {
+    padding: 20px;
+    margin: 50px;
+    background-color: #F4A261;
 }
