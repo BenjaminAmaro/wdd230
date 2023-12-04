@@ -102,6 +102,7 @@ footer {
     justify-content: center; 
     align-items: center; 
     margin: 40px;
+
 }
 
 iframe {
@@ -111,14 +112,26 @@ iframe {
     border-radius: 2%;
     overflow: hidden;
 }
-.left {
+.home-general-info {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    height: 550px;
+    border: 2px solid lightgray;;
+    border-radius: 2%;
+    overflow: hidden;
+    
 }
-
+.home-general-info a{
+    text-decoration: none;
+    color: chocolate;
+    margin: 10px;
+}
 .general ul { 
     display: flex;
     flex-direction: column;
@@ -126,7 +139,7 @@ iframe {
     align-items: center; 
     list-style: inside; 
     text-align: left;
-
+    padding: 20px;
 }
 
 .general li {
@@ -204,4 +217,9 @@ color: #fff;
     color: #E1306C;
 }
 
-
+/* rentals */
+.background {
+    height: 78.3px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
