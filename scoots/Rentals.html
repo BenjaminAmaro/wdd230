@@ -24,7 +24,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="./index.html" class="logo">Scoots</a>
+        <a href="./index.html" class="logo">Scoots🛵</a>
         <input type="checkbox" id="check">
         <label for="check" class="icons">
             <i class='bx bx-menu' id="menu-icon"></i>
@@ -33,19 +33,22 @@
 
         <nav class="navbar">
             <a href="./index.html">Home</a>
-            <a href="#">Rentals</a>
-            <a href="#">Reservations</a>
-            <a href="#">Contact</a>
+            <a href="./Rentals.html">Rentals</a>
+            <a href="./Reservations.html">Reservations</a>
+            <a href="./Contact.html">Contact</a>
         </nav>
     </header>
 
     <div class="background"></div>
 
-    <main>
+    <main class="media">
+        
+        <article id="rentals"></article>
 
-        <article class="table"></article>
+        <div id="table-container"></div>
+    </main>
     <footer>
-        <a href="#" class="logo">Scoots</a>
+        <a href="#" class="logo">Scoots🛵</a>
         <address>Av. Calzada 3 Col. Parque Nogales, Cozumel</address>
         <p id="year">&copy; </p>
         <p id="last-modification">Last Modification: </p>
@@ -71,6 +74,7 @@
         </div>
     </footer>
     <script src="./scripts/getdates.js"></script>
-    </main>
+    <script src="./scripts/rentals.js"></script>
+
 </body>
 </html>
