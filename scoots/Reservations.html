@@ -34,28 +34,57 @@
         <nav class="navbar">
             <a href="./index.html">Home</a>
             <a href="./Rentals.html">Rentals</a>
-            <a href="./Reservations.html">Reservations</a>
+            <a class="active" href="./Reservations.html">Reservations</a>
             <a href="./Contact.html">Contact</a>
         </nav>
     </header>
-    <!-- <div class="hero">
-        <picture>
-            <source srcset="./img/scoots-small.webp" media="(max-width: 600px)">
-            <source srcset="./img/scoots-medium.webp" media="(max-width: 1000px)">
-            <img src="./img/scoots-large.webp" alt="scooters" width="1500" height="750">
-        </picture>
-    </div> -->
+    <div class="background"></div>
+    <h1>Reservations</h1>
+    <main class="reservations">
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Rental Details Form</legend>
+                <label class="form-label">Start Date* <input type="date" name="start-date" id="start-date" required class="form-input"></label>
+                <label class="form-label">End Date* <input type="date" name="end-date" id="end-date" required class="form-input"></label>
+                <label class="form-label">Rental Type*
+                    <select name="rental-type" class="form-input" required>
+                        <option value="" disabled selected>Select Rental Type</option>
+                        <option value="Scooter">Honda Metro Scooter</option>
+                        <option value="Scooter">Honda Dio Scooter</option>
+                        <option value="Scooter">Honda PCX150 Scooter</option>
+                        <option value="ATV">Honda Pioneer ATV</option>
+                        <option value="jeep">Jeep Wrangler - 4 door with a/c</option>
+                        <option value="jeep">Jeep Wrangler - 2 door</option>
+                    </select>
+                </label>
+                <label class="form-label">Number of Rentals* <input type="number" name="number-of-rentals" required class="form-input" min="1"></label>
+                <label class="form-label">Phone Number* <input type="tel" name="phone-number" required class="form-input"></label>
+                <label class="form-label">Name* <input type="text" name="name" required class="form-input"></label>
+                <label class="form-label">Email* <input type="email" name="email" required class="form-input"></label>
+                <label class="form-label">Home State or Country* <input type="text" name="home-location" required class="form-input"></label>
+                <label class="form-label">Cruise Line (if applicable) <input type="text" name="cruise-line" class="form-input"></label>
+                <label class="form-label">Special Accommodations/Comments <textarea name="comments" class="form-input" rows="4"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Rent Now" class="submitBtn">
+        </form>
+    
 
-    <main>
-        <!-- <div class="hero-text">
-            <h1>Scoots Cozumel</h1>
-            <a class="button-hero" href="./join.html">Rent Now</a>
-        </div>
-
-
-        <section class="general">
-        
-        </section> -->
+        <aside class="agreements">
+            <h2>Rental Services and Agreements</h2>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid driver's license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years is allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </aside>
+    </main> 
     <footer>
         <a href="#" class="logo">Scoots</a>
         <address>Av. Calzada 3 Col. Parque Nogales, Cozumel</address>
@@ -83,6 +112,7 @@
         </div>
     </footer>
     <script src="./scripts/getdates.js"></script>
-    </main>
+    <script src="./scripts/form.js"></script>
+
 </body>
 </html>

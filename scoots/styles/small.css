@@ -50,4 +50,13 @@
     #check:checked~.navbar a {
         transform: translateY(0);
     }
+    .hero-text {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
