@@ -85,6 +85,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.hero-text h1 {
+    color: black;
+}
 .button-hero {
     background-color: var(--secundary-color);
     color: white;
@@ -197,13 +200,13 @@ iframe {
     transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1):hover .icon{
-    background: #4267B2;
+    background: black;
 }
 .wrapper .button:nth-child(2):hover .icon{
-    background: #1DA1F2;
+    background: black;
 }
 .wrapper .button:nth-child(3):hover .icon{
-    background: #E1306C;
+    background: black;
 }
 .wrapper .button .icon i{
     font-size: 25px;
@@ -222,13 +225,13 @@ color: #fff;
     transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1) span{
-    color: #4267B2;
+    color: black;
 }
 .wrapper .button:nth-child(2) span{
-    color: #1DA1F2;
+    color: black;
 }
 .wrapper .button:nth-child(3) span{
-    color: #E1306C;
+    color: black;
 }
 
 /* rentals */
@@ -289,21 +292,6 @@ color: #fff;
     filter: blur(20px);
     color: var(--secundary-color);
 }
-
-/* .h3 {
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 700;
-}
-
-.card p:not(.heading) {
-    font-size: 14px;
-}
-
-.card p:last-child {
-    color: #e81cff;
-    font-weight: 600;
-  } */
 
 .card:hover::after {
     filter: blur(30px);
