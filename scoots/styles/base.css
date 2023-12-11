@@ -163,6 +163,9 @@ iframe {
     margin-left: 20px;
 }
 
+.vehicle-category {
+    margin: 30px;
+}
 
 
 
@@ -270,7 +273,7 @@ color: #fff;
     border-radius: 10px;
     background: linear-gradient(-45deg, #1b998b 0%, #ed217c 100% );
     z-index: -10;
-    pointer-events: none;
+    /* pointer-events: none; */
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     color: var(--secundary-color);
 

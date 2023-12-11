@@ -21,7 +21,8 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(data) {
-    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    const round = Math.round(data.main.temp);
+    currentTemp.innerHTML = `${round}&deg;F`;
     humidity.innerHTML = `Humidity: ${data.main.humidity}%`;
 
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
