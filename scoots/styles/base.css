@@ -87,11 +87,13 @@ body {
 }
 .hero-text h1 {
     color: black;
+    font-family: var(--primary-font);
 }
 .button-hero {
     background-color: var(--secundary-color);
+    font-family: var(--secondary-font);
     color: white;
-    padding: 10px 20px;
+    padding: 20px 40px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -106,6 +108,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1.3rem 10%;
+    font-family: var(--primary-font);
 }
 
 .general {
@@ -115,6 +118,7 @@ footer {
     justify-content: center; 
     align-items: center; 
     margin: 40px;
+    font-family: var(--secondary-font);
 
 }
 
@@ -146,30 +150,16 @@ iframe {
     font-weight: 900;
     margin: 10px;
 }
-.general ul { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-    list-style: inside; 
-    text-align: left;
-    padding: 20px;
-}
-
-.general li {
-    margin-bottom: 10px;
-    list-style: none;
-}
-
-.general ul ul {
-    margin-top: 5px;
-    margin-left: 20px;
-}
 
 .vehicle-category {
-    margin: 30px;
+    margin: 20px;
 }
-
+.vehicle-category h3{
+    margin: 10px;
+}
+.vehicle-category p{
+    margin: 10px;
+}
 
 
 /* socials */
@@ -253,6 +243,7 @@ color: #fff;
     width: 290px;
     height: 354px;
     background-color: var(--secundary-color);
+    font-family: var(--secondary-font);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -312,6 +303,7 @@ color: #fff;
 
 /* form reservations */
 form {
+    font-family: var(--secondary-font);
     display: flex;
     justify-content: center;
     align-items: start;
@@ -326,6 +318,7 @@ fieldset{
 }
 
 label {
+    font-family: var(--secondary-font);
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -350,6 +343,7 @@ form label input:required:valid {
 
 }
 .submitBtn {
+    font-family: var(--primary-font);
     border: none;
     background-color: var(--secundary-color);
     border-radius: 1rem;
@@ -363,6 +357,7 @@ form label input:required:valid {
     cursor: pointer;
 }
 .agreements {
+    font-family: var(--secondary-font);
     margin: 50px;
     width: 400px;
     color: var(--secundary-color);
@@ -413,7 +408,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 400px; /* Adjust the width as needed */
-    margin: 20px auto; /* Center horizontally with auto margin */
+    max-width: 400px; 
+    margin: 20px auto; 
     padding: 20px;
 }
